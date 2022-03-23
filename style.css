@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+    font-family: Georgia, serif;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+body{
+    background-color: #000;
+    min-width: 210pt;
+}
+h1, p, input{
+    text-align: center;
+    width: 100%;
+}
+input {
+    font-size: 12pt;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 6px 0;
+    cursor: pointer;
+    background-color: #000;
+	border-radius:10px;
+    margin-left: 5pt;
+    width: 94%;
+    margin-bottom: 15px;
+}
+input:focus ~ img{
+    display: block;
+}
+input:hover {
+	background-color:#6b6b6b;
+}
+input:active {
+	position:relative;
+	top:1px;
+}
